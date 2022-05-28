@@ -1,0 +1,600 @@
+.nav{
+  padding: 50px;
+  z-index: 9;
+  padding-right: 50px;
+  padding-top: 20px;
+  display: flex;
+   height: 80px;
+  border-bottom: black;
+}
+.nav_log{
+    top:0;
+    left:0;
+    right: 0;
+}
+.logo{
+    width: 5.5%;
+    height: 40px;
+
+}
+.logo img{
+   padding-left: 0px;
+   height: 75px;
+   overflow: hidden;
+   background-size: cover;
+   border: solid 1px black;
+   border-radius: 50px;
+}
+.nav_side{
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 0%;
+
+}
+.nav_side a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px ;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: rgb(82, 180, 82);
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+.nav_right{
+    float: right;
+    display:flex;
+    width: 10%;
+    margin-top: 18px;
+    border-style: solid black;
+    height: auto;
+}
+.nav_right .login{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(146, 141, 141);
+    border-radius: 5px;
+    margin:3px;
+    height: 21px;
+}
+
+.nav_right .signup{
+    background-color:rgb(255, 255, 255);
+    border:solid 1px rgb(146, 141, 141);
+    border-radius: 5px;
+    margin:3px;
+    height: 21px;
+}
+
+.nav_right .login a{
+    margin: 10px;
+    border: black;
+    text-decoration: none;
+    color: black;
+}
+.nav_right .signup a{
+    margin: 10px;
+    border: 1px black;
+    text-decoration: none;
+    color: black;
+}
+.nav_right .login:hover{
+    box-shadow: 0px 5px 10px grey;
+}
+.nav_right .signup:hover{
+    box-shadow: 0px 5px 10px grey;
+}
+.login_form{
+    background-image: url('sill1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 30px;
+}
+.login_form h2{
+    font-size: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.login_form .loginform_container form {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+
+}
+.login_form .loginform_container form input{
+    margin: 10px;
+    width:20%;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+} 
+.login_form .loginform_container form button{
+    margin: 20px;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+}
+.login_form .loginform_container form button:hover{
+    box-shadow: 0px 1px 10px  grey;
+     border: solid rgb(82, 76, 76);
+}
+.signup_form{
+    background-image: url('sill1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 30px;
+}
+.signup_form h2{
+    font-size: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.signup_form .signupform_container form {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+
+}
+.signup_form .signupform_container form input{
+    margin: 10px;
+    width:20%;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+} 
+.signup_form .signupform_container form button{
+    margin: 20px;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+}
+.signup_form .signupform_container form button:hover{
+    box-shadow: 0px 1px 10px  grey;
+     border: solid rgb(82, 76, 76);
+}
+.main{
+    background-image: url('blue-blue-background-botanical-bright.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 20px;
+}
+.main .main_content1{
+    margin-left: 52%;
+    width:50%;
+    font-size: 25px;
+}
+.main .main_content1 span{
+   color: black;
+   opacity: 0.8;
+   
+   margin-top:30%;
+   font-size: 20px;
+   font-family: 'Catamaran', sans-serif;
+}
+.main .container1{
+    border: solid 1px black;
+    width: 25%;
+    margin-left: 63%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 23px;
+}
+.main .container2{
+    border: solid 1px black;
+    width: 25%;
+    margin-left: 63%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
+}
+.main .container3{
+    border: solid 1px black;
+    width: 25%;
+    margin-left: 63%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
+}
+.main .btn{
+    margin-left: 71.5%;
+    margin-top: 2%;
+    text-align: center;
+    background-color: rgb(117, 122, 129) ;
+    color:black;
+    width: 8%;
+    border-radius: 4px;
+    border: solid grey;
+    padding: 3px;
+    box-shadow: 0px 1px 10px  black;
+}
+.main .btn a{
+    text-decoration: none;
+    color: white;
+}
+.main .btn:hover{
+     box-shadow: 0px 1px 10px  grey;
+     border: solid rgb(82, 76, 76);
+}
+.products{
+    text-align: center;
+    margin-top: 25px;
+}
+.products h3{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+}
+.products .showall{
+    margin-top: -40px;
+    margin-left: 80%;
+}
+.products .product_container{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.products .product_container .item{
+    width: 33.33%;
+    margin-top:20px;
+    height: auto;
+}
+.products .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.products .product_container .item .item_image{
+    width: 100%;
+    height: 250px;
+}
+.products .product_container .item .item_image img{
+    height: 250px;
+}
+.products .product_container .item .item_content{
+    text-align: center;
+    padding: 10px;
+}
+.products .product_container .item .item_content h3{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+.products .product_container .item .item_content p{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+}
+.products .product_container .item .item_content a{
+    text-decoration:none;
+    margin: 10px;
+    background-color: #5f9ea0;
+    color: white;
+    padding: 5px;
+    border: solid white;
+    border-radius: 0px;
+    transition: ease;
+}
+.products .product_container .item .item_content a:hover{
+    font-size: 15px;
+}
+.keypoint{
+    margin-top: 10px;
+    padding: 5px;
+}
+.keypoint h3{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+.keypoint .key_container{
+    display: flex;
+    padding: 20px; 
+    padding-top: 25px;
+}
+.keypoint .key_container .key_content{
+    float: left;
+    width: 50%;
+}
+.keypoint .key_container .key_content li{
+    list-style: none;
+    padding: 20px;
+    color: black;
+    border-left: #5f9ea0 solid 4px;
+    margin:10px;
+}
+.keypoint .key_container .key_image{
+    float: left;
+    height: auto;
+    margin-left: 60px;
+    width: 40%;
+    overflow: hidden;
+}
+.testi{
+    width: 80%;
+    margin-left: 10%;
+}
+.testi h3{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.testi .testi_container #carousel-example-generic{
+    background-color: #5f9ea0;
+    box-shadow: none;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner .item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+.testi .testi_container .carousel-inner .item .item_content{
+    height: 170px;
+}
+.testi .testi_container .carousel-inner .item .item_content h2{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+.testi .testi_container .carousel-inner .item .item_content p{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+}
+.team{
+    padding: 10px;
+}
+.team h2{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.team .team_container{
+    display: flex;
+}
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;
+}
+.team .team_container .team_video video{
+    width: 100%;
+
+}
+.team .team_container .team_content{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.team .team_container .team_content p{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+}
+.about{
+    margin-top: 20px;
+}
+.about .about_content{
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.about .about_content h2{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about .about_content p{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    padding: 10px;
+}
+.contact h2{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contact .g_map{
+    border: 2px solid black;
+    width: 53.7%;
+    margin-left: 23%;
+}
+.contact .contact_content{
+    margin-top: 30px;
+}
+.feed{
+    background-image: url('plant-leaf-green-vase.jpg');
+    background-size: cover;
+    height: 500px;
+    
+}
+.feed h2{
+    font-size: 35px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.feed .feed_container{
+   margin-left: -40%;
+}
+.feed .feed_container form {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.feed .feed_container form input{
+    margin: 10px;
+    width:20%;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+} 
+.feed .feed_container form textarea{
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+    height: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+}
+.feed .feed_container form button{
+    margin: 10px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+}
+.feed .feed_container form button:hover{
+    box-shadow: 0px 1px 10px  grey;
+     border: solid rgb(82, 76, 76);
+}
+footer{
+    background-color: rgb(223, 222, 222);
+    background-size: cover;
+    width: 100%;
+    height: 745px;
+}
+footer .logo img{
+    border-radius: 50px;
+    width: 100%;
+    margin: 10px;
+}
+footer .pages{
+    text-align: center;
+    margin-top: 150px;
+}
+footer .pages h2{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .pages a{
+    margin: 10px;
+}
+footer .pages a:hover{
+    text-decoration: underline;
+}
+footer .doc{
+    text-align: center;
+    margin-top: 10px;
+}
+footer .doc h2{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .doc a{
+    margin: 10px;
+}
+footer .doc a:hover{
+    text-decoration: underline;
+}
+footer .social{
+    text-align: center;
+    margin-top: 10px;
+}
+footer .social h2{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .social a{
+    margin: 16px;
+    font-size: 20px;
+}
+footer .contact{
+    text-align: center;
+    margin-top: 10px;
+}
+footer .contact h2{
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+footer .contact a{
+    margin: 16px;
+    font-size: 20px;
+}
+footer p{
+    margin-top: 170px;
+}
